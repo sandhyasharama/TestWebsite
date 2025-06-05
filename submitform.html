@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html form element</title>
+</head>
+<body>
+    <form>
+        <label for="fname">first name:</label>
+        <input type="text" placeholder="enter the first name" name="firstname" id="fname"/><br><br>
+        <label for="lname">last name:</label>    
+        <input type="text" placeholder="enter the last name" name="lastname" id="lname"/><br><br>
+        <input type="submit" value="save"/>
+        <input type="reset" value="cancle"/>    
+    </form>
+    <form>
+        <br><br>
+        <p><b>select the course </b>you are interested in.</p>
+        <p>name attribute is used to create a group of radio buttons.</p>
+        <p>the radio with the same name will be considered as members of the group.</p>
+        <input type="radio" id="gui" name="technologyname" value="gui">
+        <label for="gui"><b>gui</b></label><br>
+        <input type="radio" id="backend" name="technologyname" value="backend">
+        <label for="backend"><b>backend</b></label><br>
+        <input type="radio" id="ml" name="technologyname" value="ml">
+        <label for="ml"><b>machine larning</b></label> 
+        <br>
+        <br>
+        <p><b>select the programming language</b></p>
+        <input type="checkbox" id="ccourse"  name="course" value="c">
+        <label for="course"><b>c language</b></label><br>
+        <input type="checkbox" id="c++course"  name="c++course" value="c++">
+        <label for="c++course"><b>c++ language</b></label><br>
+        <input type="checkbox" id="javacourse"  name="javacourse" value="java">
+        <label for="javacourse"><b>java language</b></label><br><br>
+
+        <input type="button" value="click me " onclick="alert('hello world!')"/><br>
+        <br>
+        <br>
+        <label for="favcolor">select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <br>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" value="password"><br>
+        <br>
+        <input type="button" value="show password" id="showpasswordbutton"/>
+        <br>
+        <br>
+        <br>
+        <label for="birthday">birthday</label>
+        <input type="date" id="birthday" name="birthday">
+
+    </form>
+</body>
+</html>
