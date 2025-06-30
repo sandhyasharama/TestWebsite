@@ -1,0 +1,9 @@
+/* generalsiblingselectorexample.css */
+/* ~ - General Sibling Selector */
+h2 ~ p {
+    color: red;
+}
+
+h2 {
+    color:blue;
+}

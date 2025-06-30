@@ -1,0 +1,52 @@
+/* childselectorexample.css */
+
+/* Element-based child selector */
+.parent > p {
+    color: blue;
+    font-style: italic;
+}
+
+/* ID-based child selector */
+/*
+.parent > #announcement {
+    background-color: #e0ffe0;
+}
+*/
+.parent > section {
+    background-color: #e0ffe0;
+}
+
+/* Element-based child selector - section directly under .parent */
+
+.parent > section {
+    font-size: 28px;
+    /* background-color: gray; */
+}
+
+/* This does NOT apply to ul inside .menu div because it's not a direct child of .parent */
+
+.parent > ul {
+    color: red;
+    list-style-type: square;
+}
+
+/* Element-based child selector inside .menu - working correctly for ul */
+
+.menu > ul {
+    list-style-type: circle;
+}
+/*
+div > span{
+    color: green;
+    font-weight: bold;
+}
+*/
+div > ul > li{
+    color: red;
+    font-weight: bold;
+}
+
+div > ul > #itemjquery{
+    color: blue;
+    font-weight: bold;
+}

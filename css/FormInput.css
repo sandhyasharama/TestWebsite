@@ -1,0 +1,64 @@
+/* FormInput.css */
+/* =========================================================================
+   :valid & :invalid (Email and Pattern Inputs)
+   ========================================================================= */
+.valid-invalid-demo:valid {
+    border: 2px solid #2e7d32;
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+.valid-invalid-demo:invalid {
+    border: 2px solid #c62828;
+    background: #ffebee;
+    color: #c62828;
+}
+.valid-invalid-pattern:valid {
+    border: 2px solid #1565c0;
+    background: #e3f2fd;
+    color: #1565c0;
+}
+.valid-invalid-pattern:invalid {
+    border: 2px solid #ad1457;
+    background: #fce4ec;
+    color: #ad1457;
+}
+
+/* =========================================================================
+   :required & :optional
+   ========================================================================= */
+.required-demo:required {
+    border: 2px solid #ff9800;
+    background: #fffde7;
+}
+.optional-demo:optional {
+    border: 2px dashed #90caf9;
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+/* =========================================================================
+   :in-range & :out-of-range
+   ========================================================================= */
+.range-demo:in-range {
+    border: 2px solid #00bcd4;
+    background: #e0f7fa;
+}
+.range-demo:out-of-range {
+    border: 2px solid #d84315;
+    background: #fbe9e7;
+}
+.range-demo2:in-range {
+    outline: 2px solid #4caf50;
+}
+
+/* =========================================================================
+   :default (Default submit button or checked radio)
+   ========================================================================= */
+.default-demo:default {
+    border: 2px solid #ffb300;
+    background: #fffde7;
+    color: #ff6f00;
+}
+.default-radio:default {
+    outline: 2px solid #4caf50;
+}

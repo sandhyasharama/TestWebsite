@@ -1,0 +1,65 @@
+/* =========================================================================
+   ::first-line Demo (Section-specific, no style override)
+   ========================================================================= */
+/* This file demonstrates the use of the ::first-line and ::first-letter pseudo-elements
+   for styling the first line and first letter of paragraphs, respectively. */
+
+   .first-line-demo1::first-line {
+  font-weight: bold;
+  color: #1976d2;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+.first-line-demo2 p::first-line {
+  color: #388e3c;
+  background: #e8f5e9;
+  font-family: "Georgia", serif;
+}
+.first-line-demo3::first-line {
+  color: #ff8f00;
+  font-style: italic;
+  background: #fff3e0;
+}
+
+/* =========================================================================
+   ::first-letter Demo (Section-specific, no style override)
+   ========================================================================= */
+.first-letter-demo1::first-letter {
+  font-size: 2.3em;
+  color: #e53935;
+  float: left;
+  font-family: "Times New Roman", serif;
+  margin-right: 6px;
+  line-height: 1;
+}
+.first-letter-demo2 p::first-letter {
+  font-size: 2em;
+  color: #43a047;
+  font-weight: bold;
+  border-bottom: 2px solid #43a047;
+}
+.first-letter-demo3::first-letter {
+  color: #7e57c2;
+  font-size: 2em;
+  font-style: italic;
+  background: #ede7f6;
+  padding: 0 4px;
+}
+
+/* =========================================================================
+   ::selection Demo (Section-specific, no style override)
+   ========================================================================= */
+   /* This file demonstrates the use of the ::selection pseudo-element
+      for styling the text selection in paragraphs. */
+.selection-demo1::selection {
+  background: #ffeb3b;
+  color: #1b5e20;
+}
+.selection-demo2 p::selection {
+  background: #81d4fa;
+  color: #1508c9;
+}
+.selection-demo3::selection {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}

@@ -1,0 +1,14 @@
+/* groupselectorexample.css */
+
+h1, h2, p {
+    color: rgba(224, 78, 11, 0.732);
+}
+
+h2, span {
+    font-size: px;
+}
+
+/* It will override the previous rule */  
+h2, p {
+    color: rgb(86, 6, 86);
+}

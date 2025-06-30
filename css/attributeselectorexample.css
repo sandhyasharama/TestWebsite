@@ -1,0 +1,38 @@
+/* attributeselectorexample.css */
+
+/^ -> It means starts with/
+        a[href^="http"]{
+            color: green;
+        }
+        /$ - It means ends with/
+        a[href$=".jpeg"]{
+            font-size: 50px;
+        }
+
+        /* * -> Search for the value specified*/
+        a[href*="images"]{
+            background-color: yellow;
+        }
+
+        input[type="button"]{
+            color: blue;
+            background-color: red;
+        }
+
+        input[type="text"]{
+            color: black;
+            background-color: gray;
+        }
+
+        div[data-role="admin"]{
+            color: green;
+            background-color: yellow;
+        }
+        div[data-role="user"]{
+            color: blue;
+            background-color: red;
+        }
+        div[data-role="guest"]{
+            color: red;
+            background-color:blue;
+        }

@@ -1,0 +1,52 @@
+ /*------------------------------------------
+   ::before and ::after for branding content
+   ------------------------------------------ */
+/* Inserts icon before and message after elements */
+.before-text::before {
+  content: "🌟 ";
+  color: #ffab00;
+  font-size: 5em;
+  margin-right: 2px;
+}
+.after-text::after {
+  content: " | Empowering Careers";
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-left: 4px;
+}
+
+.before-box::before {
+  content: "✔ ";
+  color: #1565c0;
+  font-weight: bold;
+}
+.after-box::after {
+  content: " 🚀";
+  color: #f50057;
+}
+
+.before-btn::before {
+  content: "🔗 ";
+}
+.after-btn::after {
+  content: " →";
+  color: #1976d2;
+}
+
+/* ------------------------------------------
+   ::marker for custom list item markers
+   ------------------------------------------ */
+.marker-list li::marker {
+  color: #4936f4;
+  font-size: 5em;
+  font-family: "Segoe UI Emoji", sans-serif;
+}
+.marker-list-ol li::marker {
+  color: #3949ab;
+  font-size: 3em;
+  font-style: italic;
+}
+ul {
+  margin: 20px
+}

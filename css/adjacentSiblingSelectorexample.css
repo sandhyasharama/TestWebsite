@@ -1,0 +1,6 @@
+/* AdjacentSiblingSelector.css */
+/* This CSS file demonstrates the use of the Adjacent Sibling Selector */
+
+h2 + p {
+    color:blue;
+}
